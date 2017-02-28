@@ -7,7 +7,7 @@ Via NPM:
 npm i --save cham
 ```
 
-Via Yarn
+Via Yarn:
 ```
 yarn add cham
 ```
@@ -38,12 +38,12 @@ export default class UserTransformer extends TransformerAbstract {
 
 ### Transform
 ```javascript
-import cham from 'cham'
+import { Manager, Resource } from 'cham'
 import UserTransformer from './Transformers/UserTransformer'
 
-var manager = new cham.Manager()
+var manager = new Manager()
 
-var users = new cham.Resource.Collection(usersFromDB, new UserTransformer)
+var users = new Resource.Collection(usersFromDB, new UserTransformer)
 
 // Transformed users ready for API output
 manager.createData(users)
