@@ -43,6 +43,8 @@ import UserTransformer from './Transformers/UserTransformer'
 
 var manager = new cham.Manager()
 
-// Transformed users ready for API output
 var users = new cham.Resource.Collection(usersFromDB, new UserTransformer)
+
+// Transformed users ready for API output
+manager.createData(users)
 ```
