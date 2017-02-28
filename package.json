@@ -1,6 +1,6 @@
 {
   "name": "cham",
-  "version": "0.0.2",
+  "version": "0.0.11",
   "description": "Presentation and transformation layer for complex REST APIs.",
   "main": "index.js",
   "scripts": {
