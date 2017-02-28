@@ -2,7 +2,7 @@
   "name": "cham",
   "version": "0.0.2",
   "description": "Presentation and transformation layer for complex REST APIs.",
-  "main": "Manager.js",
+  "main": "index.js",
   "scripts": {
     "prepublish": "node_modules/babel-cli/bin/babel.js src --out-dir lib",
     "test": "echo \"Error: no test specified\" && exit 1"
