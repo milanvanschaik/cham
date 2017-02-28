@@ -1,3 +1,5 @@
+![NPM](https://img.shields.io/npm/dt/cham.svg)
+
 # cham
 cham is a presentation and transformation layer for complex REST APIs build in JS. It's inspirated by [Fractal](https://github.com/thephpleague/fractal).
 
