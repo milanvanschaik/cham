@@ -1,9 +1,10 @@
 {
   "name": "cham",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Presentation and transformation layer for complex REST APIs.",
   "main": "Manager.js",
   "scripts": {
+    "prepublish": "node_modules/babel-cli/bin/babel.js src --out-dir lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/milanvanschaik/cham/issues"
   },
-  "homepage": "https://github.com/milanvanschaik/cham#readme"
+  "homepage": "https://github.com/milanvanschaik/cham#readme",
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "babel-preset-es2015": "^6.22.0"
+  },
+  "babel": {
+    "presets": ["es2015"]
+  }
 }
